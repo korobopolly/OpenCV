@@ -4,7 +4,7 @@ import cv2
 
 
 # 이미지 파일을 모두 img_files 리스트에 추가
-img_files = glob.glob('.\\images\\*.jpg')
+img_files = glob.glob('.\\ch01\\images\\*.jpg')
 
 if not img_files:
     print("There are no jpg files in 'images' folder")
@@ -26,7 +26,7 @@ while True:
         break
 
     cv2.imshow('image', img)
-    if cv2.waitKey(1000) >= 0:
+    if cv2.waitKey(1000) >= 0: #1초 간격으로 아무 키도 입력되지않으면 -1 자동입력
         break
 
     idx += 1

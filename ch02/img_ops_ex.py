@@ -5,7 +5,7 @@ import cv2
 '''
 img1=np.empty((240,320),dtype=np.uint8) #흑백영상 값:쓰레기
 img2=np.zeros((240,320,3),dtype=np.uint8) #컬러영상 값:0
-img3=np.ones((240,320,3),dtype=np.uint8)*255 #컬러영상 값:1
+img3=np.ones((240,320,3),dtype=np.uint8)*255 #컬러영상 값:255
 img4=np.full((240,320),128,dtype=np.uint8) #흑백영상 값:128
 '''
 

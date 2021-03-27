@@ -17,7 +17,14 @@ plt.axis('off')
 plt.imshow(imgGray, cmap='gray')
 plt.show()
 
+edge=cv2.Canny(imgGray,50,150)
+
+plt.axis('off')
+plt.imshow(edge, cmap='gray')
+plt.show()
+
 # 두 개의 영상을 함께 출력
-plt.subplot(121), plt.axis('off'), plt.imshow(imgRGB) #1행 2열로 나누고 1번째 자리에 출력
-plt.subplot(122), plt.axis('off'), plt.imshow(imgGray, cmap='gray') #1행 2열로 나누고 2번째 자리에 출력
+plt.subplot(131), plt.axis('off'), plt.imshow(imgRGB) #1행 3열로 나누고 1번째 자리에 출력
+plt.subplot(132), plt.axis('off'), plt.imshow(imgGray, cmap='gray') #1행 3열로 나누고 2번째 자리에 출력
+plt.subplot(133), plt.axis('off'), plt.imshow(edge, cmap='gray') #1행 3열로 나누고 3번째 자리에 출력
 plt.show()

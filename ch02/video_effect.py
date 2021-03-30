@@ -4,8 +4,8 @@ import cv2
 
 
 # 두 개의 동영상을 열어서 cap1, cap2로 지정
-cap1 = cv2.VideoCapture('video1.mp4')
-cap2 = cv2.VideoCapture('video2.mp4')
+cap1 = cv2.VideoCapture('ch02//video1.mp4')
+cap2 = cv2.VideoCapture('ch02//video2.mp4')
 
 if not cap1.isOpened() or not cap2.isOpened():
     print('video open failed!')

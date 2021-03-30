@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 
 
-model = 'opencv_face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel'
-config = 'opencv_face_detector/deploy.prototxt'
+model = 'ch13//opencv_face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel'
+config = 'ch13//opencv_face_detector/deploy.prototxt'
 #model = 'opencv_face_detector/opencv_face_detector_uint8.pb'
 #config = 'opencv_face_detector/opencv_face_detector.pbtxt'
 

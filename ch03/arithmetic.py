@@ -4,8 +4,8 @@ import cv2
 from matplotlib import pyplot as plt
 
 
-src1 = cv2.imread('lenna256.bmp', cv2.IMREAD_GRAYSCALE)
-src2 = cv2.imread('square.bmp', cv2.IMREAD_GRAYSCALE)
+src1 = cv2.imread('ch03//lenna256.bmp', cv2.IMREAD_GRAYSCALE)
+src2 = cv2.imread('ch03//square.bmp', cv2.IMREAD_GRAYSCALE)
 
 if src1 is None or src2 is None:
     print('Image load failed!')

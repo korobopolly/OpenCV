@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 
 
-src = cv2.imread('candies.png')
-#src = cv2.imread('candies2.png')
+#src = cv2.imread('ch03//candies.png')
+src = cv2.imread('ch03//candies2.png')
 
 if src is None:
     print('Image load failed!')
